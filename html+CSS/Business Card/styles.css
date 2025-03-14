@@ -1,0 +1,17 @@
+.business-card {
+  background-color: lavenderblush;
+  border: 3px solid darkslategray;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.ab {
+  background-color: rosybrown;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
