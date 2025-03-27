@@ -1,0 +1,39 @@
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+}
+.todo-list {
+  list-style-type: none;
+  padding: 10px;
+}
+li {
+  margin: 10px;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+body {
+  padding: 10px;
+}
+.sub-item-link {
+  text-decoration: none;
+}
+a:visited {
+  color: antiquewhite;
+}
+a:focus {
+  outline: black;
+}
+a:active {
+  color: aqua;
+}
+a:hover {
+  color: black;
+}
