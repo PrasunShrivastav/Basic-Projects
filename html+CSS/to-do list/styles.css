@@ -13,9 +13,10 @@ h1 {
   list-style-type: none;
   padding: 10px;
 }
+
 li {
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   background-color: aquamarine;
 }
 
@@ -36,4 +37,7 @@ a:active {
 }
 a:hover {
   color: black;
+}
+a:link {
+  text-decoration: none;
 }
