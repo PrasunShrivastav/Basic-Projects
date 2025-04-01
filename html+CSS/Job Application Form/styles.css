@@ -29,3 +29,44 @@ button:hover {
 input:nth-child(2) {
   border-radius: 5px;
 }
+label {
+  font-weight: bold;
+  display: block;
+}
+fieldset label {
+  font-weight: normal;
+  display: inline-block;
+  margin-right: 10px;
+}
+body {
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5);
+}
+header {
+  background-color: rgb(15, 235, 48);
+}
+textarea {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+}
+button {
+  background-color: rgb(15, 235, 48);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+  margin: 2px auto;
+}
+fieldset {
+  width: 70%;
+  margin: 10px auto;
+}
