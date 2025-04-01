@@ -1,13 +1,31 @@
-body {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 50vw;
-  margin: 0px;
-  margin-right: auto;
-  margin-left: auto;
-  min-height: calc(100vh - padding-top - padding-bottom);
+input:focus,
+textarea:focus {
+  border-color: blue;
+  outline: none;
 }
-hr,
-section {
-  width: 50%;
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+button:hover {
+  background-color: blue;
+  color: white;
+}
+.radio-group input[type="radio"]:checked {
+  border-color: rgb(211, 99, 44);
+  background-color: rgb(16, 219, 33);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  /* border color, background color and a box shadow when the radio button is selected */
+}
+.radio-group input[type="radio"]:checked + label {
+  color: rgb(211, 99, 44);
+}
+input:nth-child(2) {
+  border-radius: 5px;
 }

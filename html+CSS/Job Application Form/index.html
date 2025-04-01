@@ -1,49 +1,50 @@
+<!-- file: index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <input type="text" name="name" id="name" />
-      <input type="email" name="email" id="email" />
-      <select name="position" id="position">
-        <option value="developer">Developer</option>
-        <option value="designer">Designer</option>
-        <option value="manager">Manager</option>
-      </select>
-      <fieldset class="radio-group" name="availability">
-        <legend>Availability</legend>
-        <input
-          type="radio"
-          name="availability"
-          id="availability"
-          value="full-time"
-        />
-        <label for="availability">Full-Time</label>
-        <input
-          type="radio"
-          name="availability"
-          id="availability"
-          value="part-time"
-        />
-        <label for="availability">Part-Time</label>
-        <input
-          type="radio"
-          name="availability"
-          id="availability"
-          value="contractor"
-        />
-        <label for="availability">Contractor</label>
-      </fieldset>
-      <textarea
-        name="message"
-        id="message"
-        placeholder="Why should we hire you?"
-      ></textarea>
-      <button type="submit">Submit</button>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <label for="position">Select Position:</label>
+        <select id="position" name="position" required>
+          <option id="position">Junior Developer</option>
+          <option id="position">Senior Developer</option>
+          <option id="position">Product Manager</option>
+          <option id="position">Mobile App Developer</option>
+        </select>
+
+        <fieldset class="radio-group" name="availability">
+          <input
+            type="radio"
+            id="full-time"
+            value="full-time"
+            name="availability"
+          />
+          <label for="full-time">Full-Time</label>
+
+          <input
+            type="radio"
+            id="part-time"
+            value="part-time"
+            name="availability"
+          />
+          <label for="part-time">Part-Time</label>
+        </fieldset>
+        <label for="message">Why do you want to work with us?</label>
+        <textarea id="message">
+Tell us why.
+        </textarea>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   </body>
 </html>
