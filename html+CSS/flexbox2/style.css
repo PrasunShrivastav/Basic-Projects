@@ -1,0 +1,37 @@
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+  transition: transform 0.5s ease-in-out;
+  margin: 50px;
+}
+body {
+  margin: 0px;
+}
+#playing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: blanchedalmond;
+}
+.left {
+  align-self: flex-start;
+  font-size: 50px;
+}
+.right {
+  align-self: flex-end;
+  font-size: 50px;
+}
+.middle {
+  flex-direction: column;
+  align-self: center;
+  font-size: 150px;
+}
+.card:hover {
+  transform: scale(1.2);
+}
