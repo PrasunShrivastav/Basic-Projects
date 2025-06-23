@@ -2,6 +2,9 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
+mongoose.connect(
+  "mongodb+srv://shrivastavprasun36:SO6rUmoosG0fJ7f4@cluster0.u2dgjkv.mongodb.net/complete_app"
+);
 
 const User = new Schema({
   name: String,
